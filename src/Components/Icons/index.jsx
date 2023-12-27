@@ -4,8 +4,8 @@ export const Icons = ({ name }, props) => {
     if (name === "Ui") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={14}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 448 512"
             {...props}
         >
@@ -16,8 +16,8 @@ export const Icons = ({ name }, props) => {
     if (name === "web") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={14}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 448 512"
             {...props}
         >
@@ -28,8 +28,8 @@ export const Icons = ({ name }, props) => {
     if (name === "js") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={14}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 448 512"
             {...props}
         >
@@ -40,8 +40,8 @@ export const Icons = ({ name }, props) => {
     if (name === "software") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={20}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 640 512"
             {...props}
         >
@@ -53,8 +53,8 @@ export const Icons = ({ name }, props) => {
     if (name === "react") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={16}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 512 512"
             {...props}
         >
@@ -65,8 +65,8 @@ export const Icons = ({ name }, props) => {
     if (name === "css") {
         return <svg
             xmlns="http://www.w3.org/2000/svg"
-            width={16}
-            height={16}
+            width={80}
+            height={80}
             viewBox="0 0 512 512"
             {...props}
         >
