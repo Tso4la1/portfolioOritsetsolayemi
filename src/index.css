@@ -170,6 +170,9 @@ header {
   color: #7d7789;
   margin-bottom: 26px;
   font-family: "Lato", sans-serif;
+  width: 100%;
+  text-align: justify;
+  word-spacing: -3px;
 }
 
 .btn {
@@ -223,7 +226,7 @@ header {
 /*About*/
 
 .about {
-  width: 100%;
+  /* width: 100%; */
   background: #fff;
   padding: 100px 0;
 }
@@ -270,6 +273,9 @@ header {
   font-size: 18px;
   line-height: 1.6;
   color: #7d7789;
+  width: 80%;
+  text-align: justify;
+  word-spacing: -5px;
 }
 
 .about_buttons {
@@ -447,11 +453,19 @@ header {
   cursor: pointer;
 }
 
+.footerCircles li a:link {
+  text-decoration: none;
+}
+
 .footerCircles li:nth-child(1) {
   color: #0165e1;
   background-color: #fff;
 }
 
+.footerCircles a:nth-child(1) {
+  color: inherit;
+  /* background-color: #fff; */
+}
 .footerCircles li:nth-child(1):hover {
   color: #fff;
   background-color: #0165e1;
@@ -459,7 +473,7 @@ header {
 
 .footerCircles li:nth-child(2) {
   color: #010409;
-  background-color: transparent;
+  background-color: #fff;
 }
 
 .footerCircles li:nth-child(2):hover {
@@ -488,13 +502,12 @@ header {
 }
 
 .footerCircles li:nth-child(5) {
-  color: #1da1f2;
   background-color: #fff;
 }
 
 .footerCircles li:nth-child(5):hover {
-  color: #fff;
-  background-color: #1da1f2;
+  color: #000;
+  background-color: #e7e9ea;
 }
 @media only screen and (max-width: 768px) {
   .image {
@@ -591,6 +604,9 @@ header {
     color: #7d7789;
     margin-bottom: 26px;
     font-family: "Lato", sans-serif;
+    width: 100%;
+    text-align: justify;
+    word-spacing: -6px;
   }
   .toggle {
     display: flex;
@@ -600,12 +616,13 @@ header {
     display: none;
   }
 
-  .header_section p {
+  /* .header_section p {
     font-size: 15px;
     font-weight: 300;
     line-height: 30px;
     margin-bottom: 50px;
-  }
+    
+  } */
 
   .header_section h1 {
     font-size: 35px;
@@ -653,6 +670,11 @@ header {
     line-height: 1.4;
   }
 
+  .about_info p {
+    width: 100%;
+    text-align: justify;
+    word-spacing: -5px;
+  }
   .grid {
     grid-template-columns: 1fr;
   }

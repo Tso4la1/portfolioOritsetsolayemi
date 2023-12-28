@@ -10,7 +10,7 @@ export const Header = () => {
                             <div className="header-section">
                                 <h2>Hello, I Am</h2>
                                 <h1>Omayuku Oritsetsolayemi</h1>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit molestias quis veniam excepturi.</p>
+                                <p> As a seasoned developer, my expertise lies in crafting seamless and visually appealing user interfaces using a stack of technologies that includes JavaScript, HTML, CSS, Tailwind CSS, Styled-Components, and React.</p>
                                 <div className="header_buttons">
                                     <a href="header" className="btn btn-outline">
                                         Hire Me
