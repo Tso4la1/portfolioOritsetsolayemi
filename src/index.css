@@ -626,7 +626,7 @@ header {
   }
 
   .portfolio .overlay h1 {
-    margin-left: 0;
+    font-size: 12px;
   }
 
   .portfolio img {
@@ -644,6 +644,7 @@ header {
   .about_info h1 {
     font-size: 25px;
     margin-bottom: 18px;
+    margin-top: 12px;
   }
 
   .about_info p,
