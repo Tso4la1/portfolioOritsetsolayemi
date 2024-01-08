@@ -116,6 +116,11 @@ h4 {
   padding: 0 15px;
 }
 
+.navbar_right-desktop li a.active {
+  text-decoration: none;
+  font-weight: bolder;
+}
+
 .navbar_right-desktop li a:hover {
   color: #fca61f;
 }
@@ -569,6 +574,12 @@ header {
     top: 0;
     left: 0;
   }
+
+  .navbar_right a.active {
+    text-decoration: none;
+    font-weight: bolder;
+  }
+
   .navbar_left-logo p {
     font-size: 20px;
   }
