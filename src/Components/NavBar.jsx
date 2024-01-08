@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaAlignJustify } from "react-icons/fa"
+import { NavLink } from 'react-router-dom';
 
 export const NavBar = () => {
     const [state, setState] = React.useState(false);
@@ -13,23 +14,22 @@ export const NavBar = () => {
                         </div>
                     </ul>
                     <ul className="navbar_right-desktop">
-                        <li><a href="#Header">Home</a></li>
-                        <li><a href="#Services">Services</a></li>
-                        <li><a href="#About">About</a></li>
-                        <li><a href="#Portfolio">Portfolio</a></li>
-                        <li><a href="#Skills">Skills</a></li>
-                        <li><a href="#Contact">Contact</a></li>
+                        <li><NavLink to='/'>Home</NavLink></li>
+                        <li><NavLink to='/services'>Services</NavLink></li>
+                        <li><NavLink to='/about'>About</NavLink></li>
+                        <li><NavLink to='/portfolio'>Portfolio</NavLink></li>
+                        <li><NavLink to='/prices'>Skills</NavLink></li>
+
                     </ul>
                     {
                         state ? (
                             <ul className="navbar_right">
-                                <li><a href="Home">Home</a></li>
-                                <li><a href="Services">Services</a></li>
-                                <li><a href="About">About</a></li>
-                                <li><a href="Portfolio">Portfolio</a></li>
-                                <li><a href="Skills">Skills</a></li>
+                                <li><NavLink to='/'>Home</NavLink></li>
+                                <li><NavLink to='/services'>Services</NavLink></li>
+                                <li><NavLink to='/about'>About</NavLink></li>
+                                <li><NavLink to='/portfolio'>Portfolio</NavLink></li>
+                                <li><NavLink to='/prices'>Skills</NavLink></li>
 
-                                <li><a href="Contact">Contact</a></li>
                             </ul>
                         ) :
                             ("")

@@ -77,8 +77,8 @@ h4 {
   top: 0;
   z-index: 30;
   /* backdrop-filter: blur(50px); */
-  background: rgb(245, 245, 245);
-  opacity: 0.8;
+  background: black;
+  /* opacity: 0.9; */
 }
 
 .navbar_container {
@@ -97,6 +97,7 @@ h4 {
 .navbar_left-logo p {
   font-size: 36px;
   font-weight: 1000;
+  color: whitesmoke;
 }
 .navbar_right {
   display: flex;
@@ -109,7 +110,7 @@ h4 {
 }
 .navbar_right-desktop li a {
   text-decoration: none;
-  color: #000;
+  color: whitesmoke;
   font-weight: 450;
   font-size: 25px;
   padding: 0 15px;
@@ -563,7 +564,7 @@ header {
     flex-direction: column;
     width: 100%;
     align-items: center;
-    background: #b7e1e4;
+    background: black;
     position: fixed;
     top: 0;
     left: 0;
@@ -579,6 +580,7 @@ header {
     display: block;
     padding: 20px 0;
     font-size: 14px;
+    color: #7d7789;
   }
 
   .header {
@@ -642,8 +644,8 @@ header {
 
   .btn-outline {
     font-size: 15px;
-    padding: 12px 45px 10px;
-    margin: 0 0 0 40px;
+    padding: 12px 35px 10px;
+    margin: 0 0 0 35px;
   }
   .common {
     width: 100%;
@@ -740,6 +742,10 @@ header {
   .prices h2 {
     font-size: 35px;
     line-height: 38px;
+  }
+
+  .price {
+    margin: 35px 20px;
   }
 
   .price ul li {
