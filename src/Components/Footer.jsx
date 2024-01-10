@@ -21,7 +21,7 @@ export const Footer = () => {
                             <ul className="footerCircles">
                                 <li><a href="https://www.facebook.com/oritsetsolayemi.omayuku.33"><FaFacebookF className="footerIcon" /></a></li>
                                 <li><a href="https://github.com/Tso4la1"><FaGithub className="footerIcon" /></a></li>
-                                <li><a href="linkedin.com/in/oritsetsolayemi-omayuku-712a24251"><FaLinkedinIn className="footerIcon" /></a></li>
+                                <li><a href="https://linkedin.com/in/oritsetsolayemi-omayuku-712a24251"><FaLinkedinIn className="footerIcon" /></a></li>
                                 <li><a href="https://www.instagram.com/codewithtsola/"><FaInstagram className="footerIcon" /></a></li>
                                 <li><a href="https://twitter.com/TsolaJohn85487"><Icons name="x" /></a></li>
                             </ul>
