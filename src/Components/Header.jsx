@@ -12,7 +12,7 @@ export const Header = () => {
                                 <h1>Omayuku Oritsetsolayemi</h1>
                                 <p> As a seasoned developer, my expertise lies in crafting seamless and visually appealing user interfaces using a stack of technologies that includes JavaScript, HTML, CSS, Tailwind CSS, Styled-Components, and React.</p>
                                 <div className="header_buttons">
-                                    <a href="header" className="btn btn-outline">
+                                    <a href="https://linkedin.com/in/oritsetsolayemi-omayuku-712a24251" className="btn btn-outline">
                                         Hire Me
                                     </a>
                                 </div>
