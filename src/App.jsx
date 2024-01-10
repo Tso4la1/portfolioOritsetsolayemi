@@ -1,6 +1,5 @@
 import React from "react";
 import { NavBar } from "./Components/NavBar";
-import { Header } from "./Components/Header";
 import { Portfolio } from "./Components/Portfolio/Portfolio";
 import { About } from "./Components/About";
 import { Services } from "./Components/Services";
@@ -15,7 +14,6 @@ function App() {
   return (
     <>
       <NavBar />
-      <Header />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="portfolio" element={<Portfolio />} />

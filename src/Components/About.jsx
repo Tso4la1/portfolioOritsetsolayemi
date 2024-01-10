@@ -25,7 +25,7 @@ export const About = () => {
                                     </p>
                                 </div>
                                 <div className="about_buttons">
-                                    <a href="#about" className="btn btn-outline">
+                                    <a href="linkedin.com/in/oritsetsolayemi-omayuku-712a24251" className="btn btn-outline">
                                         Download CV
                                     </a>
                                 </div>
