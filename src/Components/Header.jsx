@@ -14,7 +14,7 @@ export const Header = () => {
                                     my expertise lies in crafting
                                     seamless and visually appealing user interfaces using a stack of technologies that includes JavaScript, HTML, CSS, Tailwind CSS, Styled-Components, and React.</p>
                                 <div className="header_buttons">
-                                    <a href="mailto://tsolajohn@gmail.com" className="btn btn-outline">
+                                    <a href="mailto:tsolajohn@gmail.com" className="btn btn-outline">
                                         Hire Me
                                     </a>
                                 </div>
