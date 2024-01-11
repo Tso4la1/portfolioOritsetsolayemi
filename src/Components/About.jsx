@@ -25,8 +25,8 @@ export const About = () => {
                                     </p>
                                 </div>
                                 <div className="about_buttons">
-                                    <a href="https://www.linkedin.com/jobs/application-settings/" className="btn btn-outline">
-                                        Download CV
+                                    <a href="https://docs.google.com/document/d/1uAG0pv-wwm3iGmPzIemJc-kci3i8WQML/edit" className="btn btn-outline">
+                                        View CV
                                     </a>
                                 </div>
                             </div>
