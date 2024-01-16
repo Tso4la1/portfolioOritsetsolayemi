@@ -25,7 +25,7 @@ export const About = () => {
                                     </p>
                                 </div>
                                 <div className="about_buttons">
-                                    <a href="https://docs.google.com/document/d/13tJ2qSqW_P1-vNeR4hTHavbD_FnsgGeCsruODWLkR54/edit?usp=sharing" className="btn btn-outline">
+                                    <a href="https://docs.google.com/document/d/1-_OV1dwAeV89EOBFtq7hcMLFEG1XaQNxs-d1vwS8EGs/edit?usp=sharing" className="btn btn-outline">
                                         View CV
                                     </a>
                                 </div>
